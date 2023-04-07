@@ -30,4 +30,4 @@ test_user = User(
     hobbies='Reading',
     image='photo.jpg',
     state='Haryana',
-    city='Panipat')
+    city='Karnal')
