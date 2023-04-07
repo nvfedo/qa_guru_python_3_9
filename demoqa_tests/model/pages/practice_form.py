@@ -12,7 +12,7 @@ class PracticeForm:
         self.user = user
 
     def open_page(self):
-        browser.open('/automation-practice-form')
+        browser.open('https://demoqa.com/automation-practice-form/')
         ads = browser.all('[id^=google_ads_][id$=container__]')
         if ads.wait.until(have.size_greater_than_or_equal(3)):
             ads.perform(command.js.remove)

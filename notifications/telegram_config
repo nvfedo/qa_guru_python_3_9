@@ -1,0 +1,16 @@
+{
+  "base": {
+    "logo": "",
+    "project": "UI_tests_demoqa",
+    "environment": "env",
+    "comment": "Allure telegram notification",
+    "reportLink": "",
+    "language": "ru",
+    "allureFolder": "allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "5747550887:AAEYP5dcxAKbN21x1ijJJYB_rQmGHCnbgC8",
+    "chat": "-1001607966011",
+    "replyTo": ""
+  }}

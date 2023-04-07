@@ -9,6 +9,9 @@ __pycache__/
 # pytest_cache
 .pytest_cache
 
+# pytest_cache
+.allure-results
+
 # Distribution / packaging
 .Python
 build/
