@@ -12,13 +12,14 @@ import allure
 @allure.feature('Practice form')
 @allure.description('Checking all fields are filled')
 @allure.story('User register')
+@allure.title("Successful register user")
 def test_registration_user(setup_chrome):
     with allure.step('Open practice form'):
         practice_form = PracticeForm(test_user)
-        sleep(2)
+        sleep(1)
     with allure.step('Submit form'):
         practice_form.submit_form()
-        sleep(2)
+        sleep(1)
     with allure.step('Validate form'):
         practice_form.should_have_submitted()
-        sleep(2)
+        sleep(1)
