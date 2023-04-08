@@ -48,5 +48,5 @@ Integration with bug tracking system Jira has been set up, allowing you to link 
 ![Screen](attach/screenshots/jira.png)
 
 ### <img width="2%" title="Telegram" src="attach/logo/telegram.png"> Telegram
-Integration with bug tracking system Jira has been set up, allowing to link launches and test cases to tasks.
+Configured a telegram bot that sends a notification with a report after completing a job from Jenkins.
 ![Screen](telegram_notification.png)
