@@ -6,6 +6,7 @@ from allure_commons.types import Severity
 import allure
 
 
+@allure.id('17054')
 @allure.tag('WEB')
 @allure.label('owner', 'nvfedo')
 @allure.severity(Severity.CRITICAL)
