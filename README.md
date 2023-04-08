@@ -1,6 +1,7 @@
 <h2 align="center">Autotest UI project for demoqa.com</h2>
 
-### Stack and tools
+<h2 align="center">Stack and tools</h2>
+
 <p  align="center">
   <code><img width="5%" title="Pycharm" src="attach/logo/pycharm.png"></code>
   <code><img width="5%" title="Python" src="attach/logo/python.png"></code>
