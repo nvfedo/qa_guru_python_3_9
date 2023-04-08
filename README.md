@@ -21,7 +21,7 @@
 - [x] Submit filled fields
 - [x] Validation filled fields
 
-### <img width="2%" title="Jenkins" src="attach/logo/jenkins.png"> Project in Jenkins
+### <img width="3%" title="Jenkins" src="attach/logo/jenkins.png"> Project in Jenkins
 
 ### [Job](https://jenkins.autotests.cloud/job/nvfedo_UI_tests_demoqa/)
 
