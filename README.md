@@ -40,8 +40,9 @@
 Integration with Allure TestOps is also configured. After running a job from Jenkins, a launch is automatically created in Allure TestOps.
 For example, this launch was created at the same time as the launch of the job from Jenkins.
 ![Screen](attach/screenshots/launches.png)
-We can also create test cases
+We can also create test cases and run jobs
 ![Screen](attach/screenshots/testcase.png)
+![Screen](attach/screenshots/job.png)
 
 ### <img width="2%" title="Jira " src="attach/logo/jira.png"> Jira 
 Integration with bug tracking system Jira has been set up, allowing you to link launches and test cases to tasks.
