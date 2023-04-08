@@ -13,6 +13,7 @@
   <code><img width="5%" title="Allure TestOps" src="attach/logo/allure_testops.png"></code>
   <code><img width="5%" title="Jira" src="attach/logo/jira.png"></code>
   <code><img width="5%" title="Telegram" src="attach/logo/telegram.png"></code>
+    <code><img width="5%" title="Telegram" src="attach/logo/selenoid.png"></code>
 </p>
 
 ### What does the test do:
