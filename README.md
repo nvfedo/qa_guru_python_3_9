@@ -26,7 +26,7 @@
 #### Just click "Build Now" and the tests will start building and passing them through the virtual machine
 ![Screen](attach/screenshots/jenkins_main.png)
 
-### <img width="3%" title="Allure Report" src="attachments/logo/allure_report.png"> Allure report
+### <img width="3%" title="Allure Report" src="attach/logo/allure_report.png"> Allure report
 
 #### After passing the tests, the results are recorded in the Allure report. Tests have attachments such as screenshot, video, page_source and browser log.
 ![Screen](attach/screenshots/allure_report.png)
