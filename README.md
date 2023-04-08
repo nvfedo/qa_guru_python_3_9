@@ -35,7 +35,9 @@
 #### Test video
 ![Screen](attach/video/fill_practice_form.gif)
 
-### ![Screen]("attach/logo/allure_testops.png") Integration with Allure TestOps is also configured. After running a job from Jenkins, a run is automatically created in Allura.
+### <img width="3%" title="Allure Report" src="attach/logo/allure_testops.png"> Allure TestOps
+
+Integration with Allure TestOps is also configured. After running a job from Jenkins, a run is automatically created in Allura.
 
 
 
