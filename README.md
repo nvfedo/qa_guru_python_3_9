@@ -23,11 +23,18 @@
 
 ### [Job](https://jenkins.autotests.cloud/job/nvfedo_UI_tests_demoqa/)
 
-##### Just click "Build Now" and the tests will start building and passing them through the virtual machine
-![This is an image](attach/screenshots/jenkins_main.png)
+#### Just click "Build Now" and the tests will start building and passing them through the virtual machine
+![Screen](attach/screenshots/jenkins_main.png)
 
 ### <img width="3%" title="Allure Report" src="attachments/logo/allure_report.png"> Allure report
 
-##### After passing the tests, the results are recorded in the Allure report
-![This is an image](attach/screenshots/allure_report.png)
+#### After passing the tests, the results are recorded in the Allure report. Tests have attachments such as screenshot, video, page_source and browser log.
+![Screen](attach/screenshots/allure_report.png)
+
+#### Test video
+![Screen](attach/video/fill_practice_form.gif)
+
+### ![Screen]("attach/logo/allure_testops.png") Integration with Allure TestOps is also configured. After running a job from Jenkins, a run is automatically created in Allura.
+
+
 
