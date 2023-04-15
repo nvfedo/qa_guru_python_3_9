@@ -2,6 +2,7 @@ import datetime
 from dataclasses import dataclass
 from datetime import date
 
+
 @dataclass
 class User:
     first_name: str

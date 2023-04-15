@@ -1,7 +1,7 @@
 import datetime
 import sys
 from selenium.webdriver import Keys
-from demoqa_tests.utils import config
+from demoqa_tests.utils import datetime_config
 
 
 class Datepicker:
@@ -12,4 +12,4 @@ class Datepicker:
     def set_date(self, date: datetime.date):
         self.element.send_keys(
             Keys.COMMAND if sys.platform == 'darwin' else Keys.CONTROL, 'a').type(
-            date.strftime(config.datetime_input_format)).press_enter()
+            date.strftime(datetime_config.datetime_input_format)).press_enter()

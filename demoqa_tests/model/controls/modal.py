@@ -11,4 +11,3 @@ class InputTab:
         self.element.type(value)
         self.elements.element_by(have.exact_text(value)).should(be.visible)
         self.element.press_tab()
-
