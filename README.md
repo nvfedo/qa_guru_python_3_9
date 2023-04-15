@@ -40,9 +40,9 @@
 ### <img width="2%" title="Allure TestOps" src="attach/logo/allure_testops.png"> Allure TestOps
 
 Integration with Allure TestOps is also configured. After running a job from Jenkins, a launch is automatically created in Allure TestOps.
-For example, this launches was created at the same time as the launch of the job from Jenkins.
+For example, this launches were created at the same time as the launch of the job from Jenkins.
 ![Screen](attach/screenshots/launches.png)
-Test cases automatically created when you are finish the launch
+Test cases automatically created when you are finish the launch or can be written manually
 ![Screen](attach/screenshots/testcase.png)
 It is also possible to select the necessary ones from the test cases tab and run the launch with them (without visiting Jenkins):
 
