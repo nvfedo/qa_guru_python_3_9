@@ -20,6 +20,7 @@
 - [x] Fills in the fields of the registration form. Elements such as checkbox, datepicker, dropdown, radiobutton and others are used
 - [x] Submit filled fields
 - [x] Validation filled fields
+- [x] Validation empty fields
 
 ### <img width="2%" title="Jenkins" src="attach/logo/jenkins.png"> Project in Jenkins
 
@@ -41,11 +42,17 @@
 Integration with Allure TestOps is also configured. After running a job from Jenkins, a launch is automatically created in Allure TestOps.
 For example, this launch was created at the same time as the launch of the job from Jenkins.
 ![Screen](attach/screenshots/launches.png)
-We can also create test cases and run jobs
+Test cases automatically created when you are finish the launch
 ![Screen](attach/screenshots/testcase.png)
-It is also possible to select the necessary ones from the test cases tab and run the launch with them (without visiting Jenkins)
-![Screen](attach/screenshots/job.png)
-![Screen](attach/screenshots/job_run.png)
+It is also possible to select the necessary ones from the test cases tab and run the launch with them (without visiting Jenkins):
+Ready and configured job
+![Screen](attach/screenshots/jobs.png)
+Select testcases and click "Run" throught bulk actions in Allure TestOps and in "Job" and make sure that the job from the previous step is selected as active
+![Screen](attach/screenshots/select_test_cases_for_launch.png)
+![Screen](attach/screenshots/launch_settings.png)
+![Screen](attach/screenshots/launch_settings_job.png)
+Launch successfully start. In the "Launches" tab new created launch appeared
+![Screen](attach/screenshots/launch_end_successfully.png)
 
 ### <img width="2%" title="Jira " src="attach/logo/jira.png"> Jira 
 Integration with bug tracking system Jira has been set up, allowing you to link launches and test cases to tasks.
